@@ -12,43 +12,50 @@
     color: #fffef2;
 }
 
+@mixin btn-hover {
+    @include offwhite;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: black;
+}
+
 body {
     background-color: #fffef2;
     font-family: "Barlow", sans-serif;
+    margin-bottom: 100px;
 }
 
 .navbar-list {
     padding: 50px 150px;
     @include flex;
     justify-content: space-between;
-    list-style-type: none;
-
-    .menu-btn {
-        font-family: "Barlow Semi Condensed";
-        font-weight: 800;
-        font-style: italic;
-        font-size: 1.3em;
-        text-decoration: none;
-        text-transform: uppercase;
-        border: 2px solid black;
-        padding: 5px 20px;
-        -webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
-        -moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
-        box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
-    }
-
-    .menu-btn:visited {
-        color: black;
-    }
-
-    .menu-btn:hover {
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-    }
+    list-style-type: none; 
 }
 
-.home-wrapper {
+.menu-btn {
+    font-family: "Barlow Semi Condensed";
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid black;
+    padding: 5px 20px;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+}
+
+.menu-btn:visited {
+    color: black;
+}
+
+.menu-btn:hover {
+    @include btn-hover;
+}
+
+.wrapper {
     padding: 10px 150px;
 }
 
@@ -70,5 +77,41 @@ h2 {
     font-size: 3em;
     -webkit-text-stroke: 2px black;
     text-shadow: 3px 3px black;
+}
 
+.article-wrap {
+    padding-right: 200px;
+    padding-bottom: 50px;
+    .about-info {
+        font-size: 1.5em;
+        line-height: 1.5em;
+
+        span {
+            font-weight: 700;
+        }
+    }
+}
+
+.btn-round {
+    font-family: "Barlow Semi Condensed";
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 30px;
+    margin-right: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+}
+
+.btn-round:visited {
+    color: black;
+}
+
+.btn-round:hover {
+    @include btn-hover;
 }

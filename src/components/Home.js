@@ -8,7 +8,7 @@ function Home() {
     return (
         <div>
             <NavBar />
-            <div className="home-wrapper">
+            <div className="wrapper">
                 <h1>Hello, <br />I'm Irene</h1>
                 <h2>Full Stack Developer</h2>
             </div>
