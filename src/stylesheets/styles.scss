@@ -8,8 +8,12 @@
     display: flex;
 }
 
+@mixin offwhite {
+    color: #fffef2;
+}
+
 body {
-    background-color: pink;
+    background-color: #fffef2;
     font-family: "Barlow", sans-serif;
 }
 
@@ -20,6 +24,51 @@ body {
     list-style-type: none;
 
     .menu-btn {
-
+        font-family: "Barlow Semi Condensed";
+        font-weight: 800;
+        font-style: italic;
+        font-size: 1.3em;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 2px solid black;
+        padding: 5px 20px;
+        -webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+        -moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+        box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
     }
+
+    .menu-btn:visited {
+        color: black;
+    }
+
+    .menu-btn:hover {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+.home-wrapper {
+    padding: 10px 150px;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Patua One";
+    font-size: 7em;
+    line-height: 1.1em;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    @include offwhite;
+    margin: 0;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 3em;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 3px 3px black;
+
 }
