@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import NavBar from "./Navbar";
+import { ExternalLink } from 'react-external-link';
 
 const About = () => {
     return (
@@ -21,8 +22,8 @@ const About = () => {
                     <span>Other Softwares: </span>
                     Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Version Control (Git and Github)
                     </p>
-                    <Link to="#" className="btn-round">Check my Linkedin</Link>
-                    <Link to="#" className="btn-round">Check my Github</Link>
+                    <ExternalLink to="https://www.linkedin.com/in/ireneasensio/" className="btn-round">Check my Linkedin</ExternalLink>
+                    <ExternalLink to="https://github.com/ihatepineapple/" className="btn-round">Check my Github</ExternalLink>
                 </div>
                 <Link to="/" className="menu-btn">Go Back</Link>
             </div>

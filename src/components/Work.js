@@ -4,6 +4,7 @@ import NavBar from "./Navbar";
 import AwesomeImg from "../images/awesome-trivia.png";
 import BirdEimg from "../images/bird-e.png";
 import GoodsImg from "../images/thegoods.png";
+import { ExternalLink } from 'react-external-link';
 
 function Work() {
     return (
@@ -20,8 +21,8 @@ function Work() {
                     It's a trivia game using <b>Javascript</b> and <b>DOM manipulation.</b></p>
                 </div>
                 <div className="btn-wrapper">
-                    <Link to="#" className="btn-round">Play Awesome Trivia</Link>
-                    <Link to="#" className="btn-round">See the repo on Github</Link>
+                    <ExternalLink href="https://gruberi.github.io/AwesomeTrivia/" className="btn-round">Play Awesome Trivia</ExternalLink>
+                    <ExternalLink href="https://github.com/ihatepineapple/AwesomeTrivia" className="btn-round">See the repo on Github</ExternalLink>
                 </div>
             </article>
 
@@ -36,8 +37,8 @@ function Work() {
                     Coded using <b>NodeJS, Express</b> and <b>MongoDB.</b></p>
                 </div>
                 <div className="btn-wrapper">
-                    <Link to="#" className="btn-round">Bird-e Live</Link>
-                    <Link to="#" className="btn-round">See the repo on Github</Link>
+                    <ExternalLink href="http://bird-e.herokuapp.com/" className="btn-round">Bird-e Live</ExternalLink>
+                    <ExternalLink href="https://github.com/ihatepineapple/bird-e" className="btn-round">See the repo on Github</ExternalLink>
                 </div>
             </article>
 
@@ -52,8 +53,8 @@ function Work() {
                     Coded using <b>ReactJS</b> and <b>MongoDB.</b></p>
                 </div>
                 <div className="btn-wrapper">
-                    <Link to="#" className="btn-round">The Goods Live</Link>
-                    <Link to="#" className="btn-round">See the repo on Github</Link>
+                    <ExternalLink href="https://the-goods20.herokuapp.com/" className="btn-round">The Goods Live</ExternalLink>
+                    <ExternalLink href="https://github.com/ihatepineapple/the-goods" className="btn-round">See the repo on Github</ExternalLink>
                 </div>
             </article>
             <div className="btn-wrapper-back">
