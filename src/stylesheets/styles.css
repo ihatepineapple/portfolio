@@ -105,4 +105,40 @@ h2 {
   box-shadow: none;
   background-color: black;
 }
+
+h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.article-wrap {
+  border-bottom: 2px solid black;
+}
+
+.article-wrap .work-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.article-wrap .work-content .work-img {
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.article-wrap .work-info {
+  margin-top: 0;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.article-wrap .btn-wrapper {
+  margin-top: 30px;
+}
+
+.btn-wrapper-back {
+  margin-top: 40px;
+}
 /*# sourceMappingURL=styles.css.map */
