@@ -27,6 +27,7 @@ body {
   text-transform: uppercase;
   border: 2px solid black;
   padding: 5px 20px;
+  color: black;
   -webkit-box-shadow: 5px 5px 0px 0px black;
   box-shadow: 5px 5px 0px 0px black;
 }

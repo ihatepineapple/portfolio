@@ -25,7 +25,9 @@ const About = () => {
                     <ExternalLink to="https://www.linkedin.com/in/ireneasensio/" className="btn-round">Check my Linkedin</ExternalLink>
                     <ExternalLink to="https://github.com/ihatepineapple/" className="btn-round">Check my Github</ExternalLink>
                 </div>
-                <Link to="/" className="menu-btn">Go Back</Link>
+                <div className="btn-wrapper-back">
+                    <Link to="/" className="menu-btn">Go Back</Link>   
+                </div> 
             </div>
         </div>
     )
