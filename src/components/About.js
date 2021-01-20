@@ -22,11 +22,13 @@ const About = () => {
                     <span>Other Softwares: </span>
                     Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Version Control (Git and Github)
                     </p>
-                    <ExternalLink to="https://www.linkedin.com/in/ireneasensio/" className="btn-round">Check my Linkedin</ExternalLink>
-                    <ExternalLink to="https://github.com/ihatepineapple/" className="btn-round">Check my Github</ExternalLink>
+                    <div className="btn-wrap-double">
+                        <ExternalLink to="https://www.linkedin.com/in/ireneasensio/"><button className="btn-round">Check my Linkedin</button></ExternalLink>
+                        <ExternalLink to="https://github.com/ihatepineapple/"><button className="btn-round">Check my Github</button></ExternalLink>
+                    </div>
                 </div>
                 <div className="btn-wrapper-back">
-                    <Link to="/" className="menu-btn">Go Back</Link>   
+                    <Link to="/"><button className="menu-btn">Go Back</button></Link>   
                 </div> 
             </div>
         </div>

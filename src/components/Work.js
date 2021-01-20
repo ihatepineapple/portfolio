@@ -21,8 +21,8 @@ function Work() {
                     It's a trivia game using <b>Javascript</b> and <b>DOM manipulation.</b></p>
                 </div>
                 <div className="btn-wrapper">
-                    <ExternalLink href="https://gruberi.github.io/AwesomeTrivia/" className="btn-round">Play Awesome Trivia</ExternalLink>
-                    <ExternalLink href="https://github.com/ihatepineapple/AwesomeTrivia" className="btn-round">See the repo on Github</ExternalLink>
+                    <ExternalLink href="https://gruberi.github.io/AwesomeTrivia/" ><button className="btn-round">Play Awesome Trivia</button></ExternalLink>
+                    <ExternalLink href="https://github.com/ihatepineapple/AwesomeTrivia"><button className="btn-round">See the repo on Github</button></ExternalLink>
                 </div>
             </article>
 
@@ -37,8 +37,8 @@ function Work() {
                     Coded using <b>NodeJS, Express</b> and <b>MongoDB.</b></p>
                 </div>
                 <div className="btn-wrapper">
-                    <ExternalLink href="http://bird-e.herokuapp.com/" className="btn-round">Bird-e Live</ExternalLink>
-                    <ExternalLink href="https://github.com/ihatepineapple/bird-e" className="btn-round">See the repo on Github</ExternalLink>
+                    <ExternalLink href="http://bird-e.herokuapp.com/"><button className="btn-round">See Bird-E Live</button></ExternalLink>
+                    <ExternalLink href="https://github.com/ihatepineapple/bird-e" ><button className="btn-round">See the repo on Github</button></ExternalLink>
                 </div>
             </article>
 
@@ -53,12 +53,12 @@ function Work() {
                     Coded using <b>ReactJS</b> and <b>MongoDB.</b></p>
                 </div>
                 <div className="btn-wrapper">
-                    <ExternalLink href="https://the-goods20.herokuapp.com/" className="btn-round">The Goods Live</ExternalLink>
-                    <ExternalLink href="https://github.com/ihatepineapple/the-goods" className="btn-round">See the repo on Github</ExternalLink>
+                    <ExternalLink href="https://the-goods20.herokuapp.com/"><button className="btn-round">See The Goods Live</button></ExternalLink>
+                    <ExternalLink href="https://github.com/ihatepineapple/the-goods" ><button className="btn-round">See the repo on Github</button></ExternalLink>
                 </div>
             </article>
             <div className="btn-wrapper-back">
-                <Link to="/" className="menu-btn">Go Back</Link>   
+                <Link to="/"><button className="menu-btn">Go Back</button></Link>   
             </div> 
         </div>
 
