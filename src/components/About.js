@@ -23,8 +23,8 @@ const About = () => {
                     Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Version Control (Git and Github)
                     </p>
                     <div className="btn-wrap-double">
-                        <ExternalLink to="https://www.linkedin.com/in/ireneasensio/"><button className="btn-round">Check my Linkedin</button></ExternalLink>
-                        <ExternalLink to="https://github.com/ihatepineapple/"><button className="btn-round">Check my Github</button></ExternalLink>
+                        <ExternalLink href="https://www.linkedin.com/in/ireneasensio/"><button className="btn-round">Check my Linkedin</button></ExternalLink>
+                        <ExternalLink href="https://github.com/ihatepineapple/"><button className="btn-round">Check my Github</button></ExternalLink>
                     </div>
                 </div>
                 <div className="btn-wrapper-back">
