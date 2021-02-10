@@ -4,6 +4,7 @@ import NavBar from "./Navbar";
 import AwesomeImg from "../images/awesome-trivia.png";
 import BirdEimg from "../images/bird-e.png";
 import GoodsImg from "../images/thegoods.png";
+import MoviesImg from "../images/movies-now.png";
 import { ExternalLink } from 'react-external-link';
 
 function Work() {
@@ -55,6 +56,20 @@ function Work() {
                 <div className="btn-wrapper">
                     <ExternalLink href="https://the-goods20.herokuapp.com/"><button className="btn-round">See The Goods Live</button></ExternalLink>
                     <ExternalLink href="https://github.com/ihatepineapple/the-goods" ><button className="btn-round">See the repo on Github</button></ExternalLink>
+                </div>
+            </article>
+
+            <article className="article-wrap">
+                <h3>Movies Now</h3>
+                <div className="work-content">
+                    <img className="work-img" src={MoviesImg} alt="movies-now"/>
+                    <p className="work-info">Movies Now is a ReactJS application that allows users to search movies from <br/>a database and visualize details about that movie.<br/>
+                    It includes a rating circular bar display.<br/>
+                    Coded using <b>ReactJS</b> and <b>RESTful Api</b></p>
+                </div>
+                <div className="btn-wrapper">
+                    <ExternalLink href="https://movies-now21.herokuapp.com/"><button className="btn-round">See MoviesNow Live</button></ExternalLink>
+                    <ExternalLink href="https://github.com/ihatepineapple/MoviesNow" ><button className="btn-round">See the repo on Github</button></ExternalLink>
                 </div>
             </article>
             <div className="btn-wrapper-back">
